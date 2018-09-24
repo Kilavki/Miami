@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* myreset */
+
+* {
+	box-sizing: border-box;
+}
+
+a, a:hover, button, button:hover, .animev {
+	transition: all 200ms linear;
+	cursor: pointer;
+}
+
+
+/*Flex Framework*/ 
+.main_flex {
+	display:flex;
+	display:-webkit-flex;
+	-webkit-flex-flow:row wrap;
+	flex-flow:row wrap;
+   }
+   
+   .main_flex__nowrap{
+	display:flex;
+	display:-webkit-flex;
+	-webkit-flex-flow:row nowrap;
+	flex-flow:row nowrap;
+   }
+   
+   .flex__auto {
+	flex:auto;
+	-webkit-flex:auto;
+	-ms-flex:auto;
+   } 
+   
+   .flex__jcontent_between {
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+   }
+   
+   .flex__jcontent_start{
+	justify-content:flex-start;
+	-webkit-justify-content:flex-start;
+   }
+   
+   .flex__jcontent_end{
+	justify-content:flex-end;
+	-webkit-justify-content:flex-end;
+   } 
+   
+   .flex__jcontent_center{
+	justify-content:center;
+	-webkit-justify-content:center;
+   } 
+   
+   .flex__jcontent_around{
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+   } 
+   
+   
+   .flex__align-items_start{
+	align-items:flex-start;
+	-webkit-align-items:flex-start;
+   } 
+   
+   .flex__align-items_end{
+	align-items:flex-end;
+	-webkit-align-items:flex-end;
+   } 
+   
+   .flex__align-items_baseline{
+	align-items:baseline;
+	-webkit-align-items:baseline;
+   } 
+   
+   .flex__align-items_stretch{
+	align-items:stretch;
+	-webkit-align-items:stretch;
+   } 
+   
+   .flex__align-items_center{
+	align-items:center;
+	-webkit-align-items:center;
+   } 
+   
+   .flex__align-content_flex-start{
+	align-content:flex-start;
+	-webkit-align-content:flex-start;
+   } 
+   
+   .flex__align-content_flex-end{
+	align-content:flex-end;
+	-webkit-align-content:flex-end;
+   } 
+   
+   .flex__align-content_space-between{
+	align-content:space-between;
+	-webkit-align-content:space-between;
+   } 
+   
+   .flex__align-content_center{
+	align-content:center;
+	-webkit-align-content:center;
+   } 
+   
+   .flex__align-content_space-around{
+	align-content:space-around;
+	-webkit-align-content:space-around;
+   } 
+   
+   .flex__align-content_stretch{
+	align-content:stretch;
+	-webkit-align-content:stretch;
+   } 
+   
+   .flex__flex-grow_01{
+	flex-grow:1;
+	-webkit-flex-grow:1;
+   } 
+   
+   .flex__flex-grow_02{
+	flex-grow:2;
+	-webkit-flex-grow:2;
+   } 
+   
+   .flex__flex-grow_03{
+	flex-grow:3;
+	-webkit-flex-grow:3;
+   } 
+   
+   .flex__flex-grow_04{
+	flex-grow:4;
+	-webkit-flex-grow:4;
+   }
+
+
+body {
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.26vmax;
+	line-height: 1.9vmax;
+	color: #323232;
+}
+
+.wrapper {
+	width: 76vw;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header	{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/header_01.png);
+	padding-top: 7vh;
+	padding-bottom: 8vh;
+	color: #ffffff;
+}
+
+.top__header {
+	height: 10vh;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15vh;
+}
+
+.call {
+	text-transform: uppercase;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#nav li {
+	list-style: none;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+bottom__header a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.about {
+	width: 100%;
+	padding-top: 18vh;
+	padding-bottom: 22vh;
+}
+
+.text_about	{
+	width: 44vw;
+	padding-right: 1.5vw;
+}
+
+.text_about ul {
+	width: 30vw;
+	margin: 6vh 0;
+}
+
+.text_about ul li {
+	margin: 1.18vh;
+}
+
+.blue {
+	color: #00aaef;
+}
+
+.title_about p {
+	text-transform: uppercase;
+	font-size: 3.8vw;
+	line-height: 4.74vw;
+}
+
+.title_about {
+	width: 30vw;
+}
