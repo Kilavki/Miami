@@ -303,3 +303,52 @@ bottom__header a {
 	background-color: #eeeeee;
 	padding: 0 0 14.3vh;
 }
+
+.box_img_gallery {
+	height: 20vmax;
+	overflow: hidden;
+}
+
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-of-type(1) {
+	width: 49vw;
+}
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-of-type(2) {
+	width: 25.45vw;
+}
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-of-type(1) {
+	width: 36.36vw;
+}
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-of-type(2) {
+	width: 36.36vw;
+}
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-of-type(1) {
+	width: 23.71vw;
+}
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-of-type(2) {
+	width: 49vw;
+}
+
+.box_img_gallery:odd {
+	margin-right: 1.58vw;
+}
+
+.box_img_gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+.name_gallery {
+	font-size: 1.26vw;
+	margin: 2.61em 0 4.57vh;
+	font-weight: 700;
+}
+
+.blue_btn {
+	background-color: #00aaef;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn {
+	bd
+}
