@@ -266,3 +266,40 @@ bottom__header a {
 .title_about {
 	width: 30vw;
 }
+
+.title {
+	margin: 0 auto 5.5vh;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+	top: -4vh;
+}
+
+.title h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.79vw;
+	color: #323232;
+	line-height: 2.84vw;
+	margin-bottom: 1.22vh;
+	font-weight: 400;
+	letter-spacing: 0.1vw;
+}
+
+.dec_svg {
+	fill: #00aaef;
+	width: 2.58vw;
+	margin: 0 0.79vw;
+}
+
+.line {
+	background-color: #00aaef;
+	width: 100%;
+	height: 0.26vh;
+	margin-top: 2vh;
+}
+
+.gallery {
+	background-color: #eeeeee;
+	padding: 0 0 14.3vh;
+}
