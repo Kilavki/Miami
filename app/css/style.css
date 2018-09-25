@@ -339,7 +339,7 @@ bottom__header a {
 
 .name_gallery {
 	font-size: 1.26vw;
-	margin: 2.61em 0 4.57vh;
+	margin: 2.61vh 0 4.57vh;
 	font-weight: 700;
 }
 
@@ -349,6 +349,11 @@ bottom__header a {
 	text-transform: uppercase;
 }
 
+.blue_btn:hover {
+	background-color: #0185ba;
+}
+
 .btn {
-	bd
+	border: none;
+	padding: 1.58vw 4.98vw;
 }
