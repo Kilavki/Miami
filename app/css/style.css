@@ -357,3 +357,40 @@ bottom__header a {
 	border: none;
 	padding: 1.58vw 4.98vw;
 }
+
+.consultation	{
+	background-color: #ffffff;
+	padding-bottom: 19vh;
+}
+
+.text_consultation {
+	width: 36.36vw;
+}
+
+.text_consultation h2 {
+	font-size: 2.52vw;
+	line-height: 2.84vw;
+	margin-bottom: 6.53vh;
+	font-weight: 400;
+}
+
+.form_consultation input {
+	background-color: #eeeeee;
+	border: none;
+	text-align: center;
+	width: 100%;
+	height: 6.79vh;
+	font-size: 1.1vw;
+	color: #393939;
+	text-transform: uppercase;
+	margin-bottom: 1.3vh;
+}
+
+.form_consultation {
+	width: 30vw;
+}
+
+.form_consultation button {
+	text-align: center;
+	width: 30vw;
+}
