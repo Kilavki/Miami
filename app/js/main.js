@@ -40,6 +40,14 @@ $(function () {
 			autoplaySpeed: 4000,
 			});
 		}
-	
+
+		$('#view_all_gallery').click(function(){
+			let content = '<div class="gallery_line main_flex__nowrap flex__jcontent_between"> <div class="box_img_gallery"> <img src="img/IG_46.jpg" alt=""> </div> 	<div class="box_img_gallery"> <img src="img/IG_47.jpg" alt=""> </div> 	</div> <div class="name_gallery"> Marina Palms / <span class="blue">North Miami Beach, FL 33162</span> </div>';
+			$('#gallery_box').append(content);
+			$(this).remove();
+		});
+		
+		
+		
 
 	});
