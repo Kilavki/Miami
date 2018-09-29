@@ -598,3 +598,103 @@ body {
 		animation-timing-function: ease-in-out;
 	}
 }
+
+
+@media only screen and ( min-device-width: 320px ) and ( max-device-width:480px ),
+@media only screen and ( max-width: 320px ),
+@media only screen and ( min-device-width: 768px ) and ( 
+max-device-width: 1024px )
+
+{
+	#bottom__header {
+		display: none;
+	}
+	
+	#header {
+		padding: 5vh 0;
+	}
+
+	#top__header {
+		height: 90vh;
+		flex-flow: column;
+	}
+
+	.logo,
+	.logo_footer {
+		width: 35vh;
+	}
+
+	body,
+	.btn {
+		font-size: 2.26vmax;
+		line-height: 2.9vmax;
+	}
+
+	.dec_svg {
+		width: 9vw;
+	}
+
+	.title h2 {
+		font-size: 9vw;
+	}
+
+	.title {
+		top: -1.61vh;
+	}
+
+	.name_gallery {
+		font-size: 3.5vw;
+	}
+
+	.text_consultation h2 {
+		font-size: 5.5vw;
+		line-height: 6.8vw;
+		text-align: center;
+	}
+
+	/* #consultation .wrapper,
+	#Contacts .wrapper {
+		flex-flow: column; 
+	}
+*/
+
+	.wrapper {
+		flex-flow: column
+	}
+
+	#consultation .wrapper div,
+	#Contacts .wrapper div, 
+	.contact_list {
+		width: 100%;
+	}
+
+	.text_consultation p {
+		text-align: center;
+		margin-bottom: 10vh;
+	}
+
+	.contact_list li {
+		text-align: center;
+		font-size: 3vw;
+	}
+
+	.name_tm h4, .name_tm h3 {
+		font-size: 4vw;
+	}
+
+	.img_tm, .box_img_tm {
+		height: 30vw;
+	}
+
+	.box_img_tm {
+		width: 30vw;
+		border-radius: 30vw;
+		left: calc(50% - 15vw);
+	}
+
+	.dot_tm {
+		width: 6.8vw;
+		left: 18vw;
+	}
+
+}
