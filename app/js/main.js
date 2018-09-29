@@ -46,7 +46,16 @@ $(function () {
 			$('#gallery_box').append(content);
 			$(this).remove();
 		});
+
+		$('#modal_box, #black_fill').hide();
+
+		$('#call').click(function(){
+			$('#modal_box, #black_fill').show();
+		});
 		
+		$( '#close_modal, #black_fill' ).click(function(){
+			$('#modal_box, #black_fill').hide();
+		});
 		
 		
 
