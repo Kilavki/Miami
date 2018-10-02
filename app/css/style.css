@@ -181,7 +181,6 @@ body {
 	background-color: #fff;
 	font-family: 'Ubuntu-regular', sans-serif;
 	font-weight: 400;
-	font-style: regular;
 	font-size: 1.26vmax;
 	line-height: 1.9vmax;
 	color: #323232;
@@ -190,13 +189,11 @@ body {
 .font-medium {
 	font-family: 'Ubuntu-medium';
 	font-weight: 500;
-	font-style: medium;
 }
 
 .font-light {
 	font-family: 'Ubuntu-light';
 	font-weight: 300;
-	font-style: light;
 }
 
 .wrapper {
@@ -251,6 +248,7 @@ body {
 .text_about	{
 	width: 42.85vw;
 	padding-right: 1.5vw;
+	line-height: 3.13vw;
 }
 
 .text_about ul {
@@ -260,7 +258,7 @@ body {
 
 .text_about ul li {
 	margin: 1.18vh;
-	line-height: 1.42vw;
+	line-height: 3.13vw;
 }
 
 .blue {
@@ -393,6 +391,7 @@ body {
 
 .text_consultation {
 	width: 36vw;
+	line-height: 1.90vw;
 }
 
 .text_consultation h2 {
@@ -420,6 +419,7 @@ body {
 .form_contact textarea {
 	height: 21.6vh;
 	resize: none;
+	padding-top: 2.74vh;
 }
 
 .form_consultation,
@@ -619,95 +619,146 @@ body {
 
 @media only screen and ( min-device-width: 320px ) and ( max-device-width:480px ),
 @media only screen and ( max-width: 320px ),
-@media only screen and ( min-device-width: 768px ) and ( 
-max-device-width: 1024px )
+@media only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px )
 
 {
+	.wrapper {
+		flex-flow: column;
+	}
+	
 	#bottom__header {
 		display: none;
 	}
-	
-	#header {
-		padding: 5vh 0;
-	}
 
 	#top__header {
-		height: 90vh;
-		flex-flow: column;
+		height: 86vh;
 	}
 
 	.logo,
 	.logo_footer {
-		width: 35vh;
+		width: 26vh;
 	}
 
-	body,
-	.btn {
-		font-size: 2.26vmax;
-		line-height: 2.9vmax;
+	.phone {
+		font-size: 6vw;
+	}
+	
+	.title {
+		top: -2vh;
 	}
 
 	.title h2 {
-		font-size: 9vw;
+		font-size: 10vw;
+		letter-spacing: 0.1em;
+		line-height: 6vw;
 	}
 
-	.title {
-		top: -1.61vh;
+	.dec_svg {
+		width: 9.58vw;
+		margin: 0 0.8vw;
+		margin-top: 2vh;
 	}
 
-	.name_gallery {
-		font-size: 3.5vw;
+	/* ABOUT */
+
+	.title_about {
+		margin-bottom: 4vh;
 	}
 
-	.text_consultation h2 {
-		font-size: 5.5vw;
-		line-height: 6.8vw;
-		text-align: center;
-	}
-
-	/* #consultation .wrapper,
-	#Contacts .wrapper {
-		flex-flow: column; 
-	}
-*/
-
-	.wrapper {
-		flex-flow: column
-	}
-
-	#consultation .wrapper div,
-	#Contacts .wrapper div, 
-	.contact_list {
-		width: 100%;
-	}
-
-	.text_consultation p {
-		text-align: center;
-		margin-bottom: 10vh;
-	}
-
+	.text_about,
+	.text_consultation,
+	.text_tm,
 	.contact_list li {
-		text-align: center;
-		font-size: 3vw;
-	}
-
-	.name_tm h4, .name_tm h3 {
+		width: 76vw;
 		font-size: 4vw;
+		line-height: 6vw;
+	}
+	
+	.title_about p {
+		width: 75vw;
+		font-size: 10vw;
+		line-height: 12vw;
 	}
 
-	.img_tm, .box_img_tm {
-		height: 30vw;
+	.text_about ul {
+		width: 65vw;
+		/* margin: 12vh 0; */
+	}
+	
+	.text_about ul li {
+		line-height: inherit;
 	}
 
-	.box_img_tm {
-		width: 30vw;
-		border-radius: 30vw;
-		left: calc(50% - 15vw);
-	}
+	/* CONSULTATIONS */
 
-	.dot_tm {
-		width: 6.8vw;
-		left: 18vw;
-	}
+	.text_consultation {
+		width: 100%;
+  }
 
+  .text_consultation h2 {
+	  font-size: 6vw;
+	  line-height: 8vw;
+  }
+
+  .text_consultation p {
+	  margin-bottom: 8vh;
+  }
+
+  .form_consultation,
+  .form_contact {
+	 width: 100%;
+  }
+
+  .btn {
+	padding: 4.6vw;
+  }
+
+  /* TESTIMONIALS */
+
+  .name_tm h3,
+  .name_tm h4 {
+	  font-size: 4vw;
+	  line-height: 6vw
+  }
+
+  .img_tm {
+	  margin-bottom: 20vh;
+  }
+  
+  .box_img_tm {
+	width: 36vw;
+	height: 36vw;
+	/* left: calc(50% - 18vw); */
+  }
+
+  .dot_tm {
+	width: 12vw;
+	height: 12vw;
+	top: calc(50% - 4vw);
+	left: 6vw;
+  }
+
+  /* CONTACTS */
+
+  .contact_list {
+    width: 100%;
+    text-align: center;
+}
+
+/* MODAL BOX */
+
+#modal_box {
+	top: 20vh;
+	width: 80vw;
+	left: calc(50% - 40vw);
+}
+
+
+  
+  
+  
+  
+  
+  
+  
 }

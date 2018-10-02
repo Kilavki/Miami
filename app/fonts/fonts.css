@@ -3,7 +3,7 @@
     src: url('../fonts/ubuntu-light/ubuntu-light.woff2') format('woff2'),
          url('../fonts/ubuntu-light/ubuntu-light.woff') format('woff');
     font-weight: 300;
-    font-style: light;
+    font-style: normal;
 }	
 	
 @font-face {
@@ -11,14 +11,14 @@
     src: url('../fonts/ubuntu-medium/ubuntu-medium.woff2') format('woff2'),
          url('../fonts/ubuntu-medium/ubuntu-medium.woff') format('woff');
     font-weight: 500;
-    font-style: medium;
+    font-style: normal;
 }	
 @font-face {
     font-family: 'ubuntu-regular';
     src: url('../fonts/ubuntu-regular/ubuntu-regular.woff2') format('woff2'),
          url('../fonts/ubuntu-regular/ubuntu-regular.woff') format('woff');
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
 }	
 	
 
