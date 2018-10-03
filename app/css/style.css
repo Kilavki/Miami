@@ -182,7 +182,7 @@ body {
 	font-family: 'Ubuntu-regular', sans-serif;
 	font-weight: 400;
 	font-size: 1.26vmax;
-	line-height: 1.9vmax;
+	line-height: 1.90vmax;
 	color: #323232;
 }
 
@@ -248,7 +248,11 @@ body {
 .text_about	{
 	width: 42.85vw;
 	padding-right: 1.5vw;
-	line-height: 3.13vw;
+	line-height: 1.90vw;
+}
+
+.text_about p {
+	padding-left: 2vw;
 }
 
 .text_about ul {
@@ -258,7 +262,7 @@ body {
 
 .text_about ul li {
 	margin: 1.18vh;
-	line-height: 3.13vw;
+	line-height: 1.90vw;
 }
 
 .blue {
@@ -321,8 +325,8 @@ body {
 	height: auto;
 }
 .gallery_line:nth-of-type(1) .box_img_gallery:nth-of-type(2) {
-	width: 25.7vw;
-	height: auto;
+	width: 25.7vw; 
+	height: auto; 
 }
 
 .gallery_line:nth-of-type(8) .box_img_gallery:nth-of-type(1) {
@@ -688,7 +692,17 @@ body {
 	.text_about ul li {
 		line-height: inherit;
 	}
+	/* GALLERY */
+	
+	.name_gallery {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
+	.name_gallery span.blue {
+		padding-top: 2vh;
+	}
+	
 	/* CONSULTATIONS */
 
 	.text_consultation {
@@ -743,22 +757,13 @@ body {
   .contact_list {
     width: 100%;
     text-align: center;
-}
+	}
 
-/* MODAL BOX */
+	/* MODAL BOX */
 
-#modal_box {
-	top: 20vh;
-	width: 80vw;
-	left: calc(50% - 40vw);
-}
-
-
-  
-  
-  
-  
-  
-  
-  
+	#modal_box {
+		top: 20vh;
+		width: 80vw;
+		left: calc(50% - 40vw);
+		}
 }
